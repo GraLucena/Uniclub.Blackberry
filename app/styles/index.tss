@@ -1,0 +1,23 @@
+"#container": {
+	backgroundColor:"#9C213F"
+},
+"#invitadoBtn":{
+	top : "80%",
+	left : "20%",
+	width:"100",
+	height:"30",
+	image : "/invitadoBtn.png"
+},
+"#uniclubBtn":{
+	top : "80%",
+	right : "20%",
+	width:"100",
+	height:"30",
+	image : "/uniclubBtn.png"
+},
+"#unicasaLogo":{
+	top : "20%",
+	width:"250",
+	height:"300",
+	image : "/unicasaaLogo.png"
+}

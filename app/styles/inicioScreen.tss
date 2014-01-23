@@ -1,0 +1,176 @@
+"#inicioScreen": {
+	backgroundColor: "#9C213F"
+},
+"#menuBtn":{
+	left : "3%",
+	top : "3%",
+	image :"/menuIcon.png"
+},
+"#carritoBtn":{
+	top : "3%",
+	right: "3%",	
+	image :"/carritoIcon.png"
+},
+"#logoImg":{
+	top : "3%",
+	right : "44%",
+	image :"/unicasaIcon.png"
+},
+"promociones":{
+	backgroundColor :"white",
+	width :Ti.UI.FILL,
+	height: "300px",
+},
+"#img1":{
+	image :"/slideImg1.png"
+},
+"promociones2":{
+	backgroundColor : "#dddddd",
+	width : Ti.UI.FILL,
+	height : "200px"	 
+},
+"#recetaImg":{
+	top: "13%",
+	left :"2%",
+	image :"/recetasImg.png"
+},
+"#carreraImg":{
+	top: "13%",
+	right :"2%",
+	image :"/carreraImg.png"
+},
+"preciosUnicosList":{
+	width:Ti.UI.FILL,
+	backgroundColor :"#dddddd",
+	top:"10",
+	separatorStyle:"NONE",
+	separatorColor:"#e4e4e4"
+},
+"#list":{
+	width:Ti.UI.FILL
+},
+"#rowContainer2":{
+	width:Ti.UI.FILL,
+	height:"200px",
+	backgroundColor:"white"
+},
+"#rowContainerSocial":{
+	width:Ti.UI.FILL,
+	height:"110px",
+	backgroundColor:"white",
+	top: "25px"
+},
+"#siguenos":{
+	font:{
+	font:"Helvetica",
+	fontWeight:"bold",
+	fontSize:"6pt",
+	},
+	top:"10",
+	left:"10",
+	color:"#f79323"
+},
+"#facebookImg":{
+	top: "40",
+	left :"10",
+	image :"/facebook.png"
+},
+"#twitterImg":{
+	top: "40",
+	left :"70",
+	image :"/twitter.png"
+},
+"#youTubeImg":{
+	top: "40",
+	left :"130",
+	image :"/youTube.png"
+},
+"#preciosUnicos":{
+	backgroundColor:"#f79323",
+	width:Ti.UI.FILL,
+	height:"70"
+},
+"#preciosUnicosLabel":{
+	color:"white",
+	font:{
+		font:"Helvetica",
+		fontSize:"10pt"
+	},
+	left:"15"
+},
+"#productoImg":{
+	image:"/productoImg1.png",
+	left:"40"
+},
+"#infoProducto":{
+	font:{
+		font:"Helvetica",
+		fontSize:"8pt",
+		fontWeight:"Bold"
+	},
+	color:"black",
+	right:"20",
+	top:"6"
+},
+"#precioUnico":{
+	backgroundColor:"#ff5400",
+	borderRadius:"4",
+	width:"270",
+	height:"80",
+	top:"90",
+	right:"20"
+},
+"#precioUnicoLabel":{
+	font:{
+		font:"Helvetica",
+		fontSize:"7pt",
+		fontWeight:"Bold"
+	},
+	color:"black",
+	text:"Precio Único",
+	top:"4",
+	left:"13"
+},
+"#precio":{
+	font:{
+		font:"Helvetica",
+		fontSize:"7pt",
+		fontWeight:"Bold"
+	},
+	color:"white",
+	top:"4",
+	right:"4"
+},
+"#agregarBtn":{
+	image:"/agregarBtn.png",
+	top:"40",
+	left:"8",
+},
+"#agregarLista":{
+	font:{
+		font:"Helvetica",
+		fontSize:"7pt"
+	},
+	color:"white",
+	left:"40",
+	top:"40",
+	text:"Agregar a lista"	
+},
+"#productoImg2":{
+	image:"/productoImg2.png",
+	left:"60"
+},
+"#productoImg3":{
+	image:"/productoImg3.png",
+	left:"60"
+},
+"#productoImg4":{
+	image:"/productoImg4.png",
+	left:"60"
+},
+"#productoImg5":{
+	image:"/productoNoImg.png",
+	left:"60"
+}
+
+
