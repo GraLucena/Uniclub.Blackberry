@@ -1,7 +1,8 @@
 function inicie() {
-	var win = Alloy.createController('menu').getView();
-	win.open();
-	$.container2.hide();
+	var win = Alloy.createController('inicioScreen').getView();
+	$.container2.add(win);		
+	//win.open();
+	
 }
 
 function despliegueMenu () {

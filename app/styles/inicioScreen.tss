@@ -41,8 +41,9 @@
 },
 "preciosUnicosList":{
 	width:Ti.UI.FILL,
-	backgroundColor :"#dddddd",
-	top:"10",
+	height : "200",	 
+	backgroundColor :"blue",
+	top:"100",
 	separatorStyle:"NONE",
 	separatorColor:"#e4e4e4"
 },

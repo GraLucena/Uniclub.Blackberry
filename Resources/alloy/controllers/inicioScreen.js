@@ -7,7 +7,7 @@ function Controller() {
     var $ = this;
     var exports = {};
     $.__views.inicioScreen = Ti.UI.createView({
-        backgroundColor: "blue",
+        backgroundColor: "#9C213F",
         id: "inicioScreen"
     });
     $.__views.inicioScreen && $.addTopLevelView($.__views.inicioScreen);
@@ -38,34 +38,24 @@ function Controller() {
     });
     var __alloyId1 = [];
     __alloyId1.push($.__views.list);
-    $.__views.promociones = Ti.UI.createView({
-        id: "promociones"
+    $.__views.promociones2 = Ti.UI.createView({
+        id: "promociones2"
     });
-    $.__views.list.add($.__views.promociones);
-    var __alloyId2 = [];
-    $.__views.img1 = Ti.UI.createImageView({
-        image: "/slideImg1.png",
-        id: "img1"
+    $.__views.list.add($.__views.promociones2);
+    $.__views.recetaImg = Ti.UI.createImageView({
+        top: "13%",
+        left: "2%",
+        image: "/recetasImg.png",
+        id: "recetaImg"
     });
-    __alloyId2.push($.__views.img1);
-    $.__views.img2 = Ti.UI.createImageView({
-        id: "img2",
-        backgroundColor: "#246"
+    $.__views.promociones2.add($.__views.recetaImg);
+    $.__views.carreraImg = Ti.UI.createImageView({
+        top: "13%",
+        right: "2%",
+        image: "/carreraImg.png",
+        id: "carreraImg"
     });
-    __alloyId2.push($.__views.img2);
-    $.__views.img3 = Ti.UI.createImageView({
-        id: "img3",
-        backgroundColor: "#48b"
-    });
-    __alloyId2.push($.__views.img3);
-    $.__views.scrollableView = Ti.UI.createScrollableView({
-        views: __alloyId2,
-        id: "scrollableView",
-        pagingControlHeight: "10",
-        pagingControlColor: "white",
-        showPagingControl: "true"
-    });
-    $.__views.promociones.add($.__views.scrollableView);
+    $.__views.promociones2.add($.__views.carreraImg);
     $.__views.preciosUnicosList = Ti.UI.createTableView({
         data: __alloyId1,
         id: "preciosUnicosList"

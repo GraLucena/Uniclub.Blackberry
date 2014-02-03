@@ -5,21 +5,15 @@
 		<ImageView id="menuBtn" ></ImageView>
 		<ImageView id="logoImg"></ImageView>
 		<ImageView id="carritoBtn"></ImageView>	
-			
+
 		<TableView id="preciosUnicosList">
-			
-			<TableViewRow id="list">
-				<View id="promociones">
-       				<ScrollableView id="scrollableView" pagingControlHeight="10" pagingControlColor="white" showPagingControl="true">
-           				<ImageView id="img1"/>
-           				<ImageView id="img2" backgroundColor="#246" />
-           				<ImageView id="img3" backgroundColor="#48b" />
-        			</ScrollableView>	
+
+		 <TableViewRow id="list">
+    			<View id="promociones2">
+    				<ImageView id="recetaImg"></ImageView>	
+    				<ImageView id="carreraImg"></ImageView>	
     			</View>
     		</TableViewRow>
-
-									
 		</TableView>
-
 	</View>
 </Alloy>

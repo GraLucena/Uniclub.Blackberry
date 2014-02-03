@@ -1,6 +1,6 @@
 function inicioSesion() {
-	var w = Alloy.createController('inicioScreen').getView();
-	$.container.add(w);		
+	var w = Alloy.createController('inicioSesion').getView();
+	$.container.add(w);	
 }
 
 function registroUsuario () {

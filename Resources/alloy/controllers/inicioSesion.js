@@ -1,8 +1,7 @@
 function Controller() {
     function inicie() {
-        var win = Alloy.createController("menu").getView();
-        win.open();
-        $.container2.hide();
+        var win = Alloy.createController("inicioScreen").getView();
+        $.container2.add(win);
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "inicioSesion";
@@ -26,36 +25,36 @@ function Controller() {
     });
     $.__views.container2.add($.__views.uniclubImg);
     inicie ? $.__views.uniclubImg.addEventListener("click", inicie) : __defers["$.__views.uniclubImg!click!inicie"] = true;
-    $.__views.__alloyId3 = Ti.UI.createTextArea({
+    $.__views.__alloyId2 = Ti.UI.createTextArea({
         backgroundColor: "white",
         width: "70%",
         height: "8%",
         borderRadius: "7",
         top: "50%",
         hintText: "Cédula",
-        id: "__alloyId3"
+        id: "__alloyId2"
     });
-    $.__views.container2.add($.__views.__alloyId3);
-    $.__views.__alloyId4 = Ti.UI.createTextArea({
+    $.__views.container2.add($.__views.__alloyId2);
+    $.__views.__alloyId3 = Ti.UI.createTextArea({
         backgroundColor: "white",
         width: "70%",
         height: "8%",
         borderRadius: "7",
         top: "58.1%",
         hintText: "Contraseña",
-        id: "__alloyId4"
+        id: "__alloyId3"
     });
-    $.__views.container2.add($.__views.__alloyId4);
-    $.__views.__alloyId5 = Ti.UI.createLabel({
+    $.__views.container2.add($.__views.__alloyId3);
+    $.__views.__alloyId4 = Ti.UI.createLabel({
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "white",
         font: "Helvetica",
         top: "70%",
         text: "Olvidó Su Contraseña?",
-        id: "__alloyId5"
+        id: "__alloyId4"
     });
-    $.__views.container2.add($.__views.__alloyId5);
+    $.__views.container2.add($.__views.__alloyId4);
     $.__views.inicioSesionImg = Ti.UI.createImageView({
         top: "80%",
         width: "120",
